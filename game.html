@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Math Quiz</title>
+        <link rel="stylesheet" href="game.css">
+        <script src="game.js"></script>
+    </head>
+    <body>
+        <h4 id="user1"></h4>
+        <span id="score1"></span>
+        <h4 id="user2"></h4>
+        <span id="score2"></span>
+        <div class="container">
+            <center>
+                <h2 style="color:white;">Math Quiz</h2>
+                <span>Question turn:<h3 id="playerQ"></h3></span>
+                <span>Answer turn:<h3 id="playerA"></h3></span>
+
+            <div id="output">
+                <h4></h4>
+            </div>
+            <h4>Number 1</h4>
+            <div><input id="number1" placeholder="Enter first number here" type="number"></div>
+            <h4>Number 2</h4>
+            <div><input id="number2" placeholder="Enter second number here" type="number"></div>
+            <button onclick="send()" id="send">Send</button>
+            </center>
+        </div>
+    </body>
+</html>
